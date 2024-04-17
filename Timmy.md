@@ -28,3 +28,7 @@ props可以实现父子组件通信，在vue3中我们可以通过defineProps获
 全局事件总线可以实现任意组件通信，在vue2中可以根据VM与VC关系推出全局事件总线
 但是在vue3中没有Vue构造函数，也就没有Vue.prototype，以及组合式API写法没有this
 那么vue3想实现全局事件总线的功能可以使用插件mitt实现
+
+#### 1.1.4、v-model 组件之间的通信
+
+v-model可以实现父子组件同步
